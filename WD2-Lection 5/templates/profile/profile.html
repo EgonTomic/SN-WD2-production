@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %} Profile {% endblock title %}
+
+{% block content %}
+<div class="container mt-4">
+    <p><strong>Name: </strong>{{user.username}}</p>
+    <p><strong>Email: </strong>{{user.email_adress}}</p>
+    <a href="/edit-profile">Edit</a>
+</div>
+{% endblock content %}
