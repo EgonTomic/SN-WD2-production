@@ -1,0 +1,7 @@
+Flask==2.0.3
+gunicorn==19.9.0
+sqla-wrapper==4.200628
+psycopg2
+smartninja-redis
+pytest
+requests
